@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
 env:
   BUILDER_IMAGE: ghcr.io/k8sli/nixos-nix:v2.3.12
 
